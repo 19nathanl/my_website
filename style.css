@@ -1,0 +1,114 @@
+/* Base */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  color: #1a1a1a;
+  background: #f7f7f7;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+/* Header */
+header {
+  background: linear-gradient(135deg, #0f172a, #111827);
+  color: white;
+  padding: 4rem 0 3.5rem;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.6rem;
+  font-weight: 700;
+}
+
+.subtitle {
+  margin-top: 0.25rem;
+  font-size: 1.1rem;
+  opacity: 0.85;
+}
+
+.tagline {
+  margin-top: 1.5rem;
+  max-width: 700px;
+  font-size: 1.15rem;
+}
+
+.cta {
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 0.75rem 1.25rem;
+  background: white;
+  color: #0f172a;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 6px;
+}
+
+/* Sections */
+main {
+  padding: 3rem 0;
+}
+
+section {
+  margin-bottom: 3rem;
+}
+
+h2 {
+  margin-bottom: 0.75rem;
+  font-size: 1.75rem;
+}
+
+p {
+  max-width: 750px;
+}
+
+/* Lists */
+.bullets {
+  margin-top: 1rem;
+  padding-left: 1.25rem;
+}
+
+.bullets li {
+  margin-bottom: 0.5rem;
+}
+
+/* Cards */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.25rem;
+  margin-top: 1.25rem;
+}
+
+.card {
+  background: white;
+  padding: 1.25rem;
+  border-radius: 8px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
+/* Contact */
+.contact {
+  font-size: 1.05rem;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  color: #666;
+  font-size: 0.9rem;
+}
