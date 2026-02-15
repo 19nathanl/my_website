@@ -38,7 +38,7 @@ header h1 {
 
 .tagline {
   margin-top: 1.5rem;
-  max-width: 700px;
+  max-width: 960px;
   font-size: 1.15rem;
 }
 
@@ -68,7 +68,7 @@ h2 {
 }
 
 p {
-  max-width: 750px;
+  max-width: 960px;
 }
 
 /* Lists */
